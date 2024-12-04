@@ -18,7 +18,7 @@ import "./index.css";
 
 const App = () => {
   const [role, setRole] = useState(localStorage.getItem("role") || "guest");
-  const url = "http://172.16.88.130:8010";
+  const url = "http://0.0.0.0:8010";
 
   const handleLogin = (userRole) => {
     setRole(userRole);

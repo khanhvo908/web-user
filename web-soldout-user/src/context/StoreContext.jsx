@@ -5,7 +5,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   const [cartItem, setCartItem] = useState({});
-  const url = "http://172.16.88.130:8010";
+  const url = "http://0.0.0.0:8010";
   const [token, setToken] = useState("");
   const [product_list, setProductList] = useState([]);
   const [sale_product, setSaleProduct] = useState([]);

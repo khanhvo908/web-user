@@ -22,7 +22,7 @@ import StaffManageRouter from "./routes/StaffManageRoute.js";
 //app config
 const app = express();
 const port = 8010;
-const serverIp = "172.16.88.130"
+const serverIp = "0.0.0.0"
 
 //middleware
 app.use(express.json());
